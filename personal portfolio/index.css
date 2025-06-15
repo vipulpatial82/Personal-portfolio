@@ -627,13 +627,6 @@ body.dark-mode #toggle i {
         display: flex;
     }
     
-    #toggle {
-        display: block;
-    }
+    
 }
 
-@media (min-width: 769px) {
-    #toggle {
-        display: none;
-    }
-}
