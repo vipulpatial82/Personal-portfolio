@@ -70,10 +70,16 @@ const toggleBtn = document.getElementById("toggle");
 const icon = toggleBtn.querySelector("i");
 
 
-
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleBtn = document.getElementById('toggle');
+    const navMenu = document.querySelector('.right ul');
+    
+    toggleBtn.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+    });
+});
 
 // glow mode
-// Load theme from localStorage
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("dark-mode");
   icon.classList.remove("fa-moon");

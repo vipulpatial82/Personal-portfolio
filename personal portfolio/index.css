@@ -512,4 +512,128 @@ body.dark-mode #toggle i {
 .dark-mode main .name{
     color: #00ffff;
 }
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 10px;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .left {
+        position: static;
+        padding: 10px 0;
+        font-size: 24px;
+    }
+    
+    .right {
+        position: static;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .right ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .right ul li {
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .home {
+        padding: 100px 20px;
+        height: auto;
+    }
+    
+    .home h1 {
+        font-size: 32px;
+    }
+    
+    .home p {
+        font-size: 18px;
+    }
+    
+    .Get-Resume, 
+    .work {
+        padding: 16px 28px;
+        font-size: 14px;
+        margin: 15px 5px;
+    }
+}
+@media (max-width: 768px) {
+    Footer h3 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    Footer p {
+        margin-left: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .contact-box {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .download-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    
+    section {
+        height: auto !important;
+        min-height: 100vh;
+    }
+    
+   
+    .button-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    h1 {
+        font-size: 28px !important;
+    }
+    
+    h3 {
+        font-size: 20px !important;
+    }
+    
+    p {
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 768px) {
+    .right ul {
+        display: none;
+        width: 100%;
+    }
+    
+    .right ul.active {
+        display: flex;
+    }
+    
+    #toggle {
+        display: block;
+    }
+}
 
+@media (min-width: 769px) {
+    #toggle {
+        display: none;
+    }
+}
