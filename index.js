@@ -33,7 +33,7 @@ document.querySelector(".work").addEventListener("click", () => {
   document.querySelector("#projects").scrollIntoView({ behavior: "smooth" });
 });
 document.querySelector(".Get-Resume").addEventListener("click", () => {
-  window.open("vipul final cv.pdf", "_blank");
+  window.open("vipul_resume.pdf", "_blank");
 });
 
 
